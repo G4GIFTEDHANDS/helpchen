@@ -1,0 +1,32 @@
+# How to Install Git on a Local Machine
+
+To use Git for version control, you need to install it on your local machine. Follow these steps:
+
+1. **Windows:**
+   - Download the Git installer from [Git for Windows](https://gitforwindows.org/).
+   - Run the installer and follow the on-screen instructions.
+
+2. **Mac:**
+   - Install Git using [Homebrew](https://brew.sh/):
+     ```bash
+     brew install git
+     ```
+
+3. **Linux (Debian/Ubuntu):**
+   - Run the following command:
+     ```bash
+     sudo apt-get update
+     sudo apt-get install git
+     ```
+
+4. **Linux (Fedora):**
+   - Run the following command:
+     ```bash
+     sudo dnf install git
+     ```
+
+5. **Verification:**
+   - To verify a successful installation, open a command prompt or terminal and run:
+     ```bash
+     git --version
+     ```
